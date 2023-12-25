@@ -1,7 +1,7 @@
-# Multi-sized Font for Raspberry Pi Pico LCD/OLED Displays
-# Existing framebuf library only supports 8*8 font size
-# lcd_write method has been implemented in the LCD_1inch3
-# class inside the lcd_lib.py file
+# Micropython script to interrogate GivEnergy API
+# https://givenergy.cloud/docs/api/v1#inverter-data-GETinverter--inverter_serial_number--system-data-latest
+# and display status on a 1.14" LCD backpack
+# https://www.waveshare.com/pico-lcd-1.14.htm
 
 from lcd_lib import LCD_1inch3
 import network
