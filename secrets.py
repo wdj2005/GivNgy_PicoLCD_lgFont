@@ -1,0 +1,4 @@
+SSID = 
+PASSWORD = 
+INVERTER = 
+API_KEY = 
